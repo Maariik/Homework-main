@@ -2,83 +2,95 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Информационное окно</title>
-  <style>
-    a {
-      text-decoration: none;
-      color: grey;
-      border: 1px solid black;
-    }
-
-    .first-four {
-      margin-bottom: 5px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-  <header>
-
-    <h1 style="text-align: center;">Моя Информация</h1>
-    <div style="text-align: center;">
-      <ul style="list-style: none;">
-        <li class="first-four">
-          <a class="link" href="#Personal-information">Персональная информация</a>
-        </li>
-        <li class="first-four">
-          <a href="#education">Образование</a>
-        </li>
-        <li class="first-four">
-          <a href="#working-experience">Рабочий опыт</a>
-        </li>
-        <li class="first-four">
-          <a href="#hobby">Хобби</a>
-        </li>
-      </ul>
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="first-container">
+        <h1>Информация обо мне</h1>
+        <ul>
+          <li><a href="#personal-information">Персональная информация</a></li>
+          <li><a href="#education">Образование</a></li>
+          <li><a href="#working-experience">Рабочий опыт</a></li>
+          <li><a href="#hobby">Хобби</a></li>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
-    <section id="Personal-information">
-      <h2>Персональная информация</h2>
-      <p><span style="font-weight: bold;">Имя: </span>Александр Мариняк.</p>
-      <p><span style="font-weight: bold;">Дата рождения: </span>07.06.2004</p>
-      <p><span style="font-weight: bold;">Адрес:</span><a href="https://maps.app.goo.gl/5AAQCogRy2Tz7zbG7">Wipperfurt
-          banstrasse 4</a></p>
-      <p><span style="font-weight: bold;">Телефон: </span><a href="tel:+380733257016">
-          +380733257016</a></p>
-      <p><span style="font-weight: bold;">Email: </span><a
-          href="mailto:marinyalexandro@gmail.com">marinyalexandro@gmail.com</a></p>
+    <div class="main-wrapper">
+      <section id="personal-information">
+        <div class="personal-detailes">
+          <h2>Персональная информация</h2>
+          <ul>
+            <li><span class="bold">Имя : </span> Александр Мариняк</li>
+            <li>
+              <span class="bold">Дата рождения : </span> 07.06.2004
+            </li>
+            <li>
+              <span class="bold">Адрес : </span>
+              <a href="https://maps.app.goo.gl/5AAQCogRy2Tz7zbG7">
+                Wipperfurt banstrasse 4
+              </a>
+            </li>
+            <li>
+              <span class="bold">
+                Телефон :
+              </span>
+              <a href="tel:+380733257016">
+                +380733257016
+              </a>
+            </li>
+            <li>
+              <span class="bold">
+                Email:
+              </span>
+              <a href="mailto:marinyalexandro@gmail.com">marinyalexandro@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-
-    </section>
-    <section id="education">
-      <h2>Образование</h2>
-      <p><a href="https://omcfi.od.ua/ua/">Одесский мореходный колледж рыбной промышленности им. А.Соляника</a></p>
-    </section>
-    <section id="working-experience">
-      <h2>Рабочий опыт</h2>
-      <p>Его нету&#129319;</p>
-    </section>
-
-    <section id="hobby">
-      <h2>Хобби</h2>
-      <ul style="text-decoration:none;">
-        <li>
-          Путешествия
-        </li>
-        <li>
-          Программирование
-        </li>
-        <li>
-          Изучение иностранных языков
-        </li>
-        <li>
-          Чтение
-        </li>
-      </ul>
-    </section>
+      <section id="education">
+        <div class="education-detailes">
+          <h2>Образование</h2>
+          <ul>
+            <li><a href="https://omcfi.od.ua/ua/">Одесский мореходный колледж рыбной промышленности им. А.Соляника</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="working-experience">
+        <div class="experience-details">
+          <h2>Рабочий опыт</h2>
+          <p>Его нету&#129319;</p>
+        </div>
+      </section>
+      <section id="hobby">
+        <div class="hobby-detailes">
+          <h2>Хобби</h2>
+          <ul>
+            <li>
+              Путешествия
+            </li>
+            <li>
+              Программирование
+            </li>
+            <li>
+              Изучение иностранных языков
+            </li>
+            <li>
+              Чтение
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </main>
 </body>
 

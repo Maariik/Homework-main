@@ -1,0 +1,92 @@
+@import url(reset.css);
+*
+{
+box-sizing: border-box;
+}
+.header-wrapper , .main-wrapper
+{
+  background-color: #EDF5E1; padding: 25px;
+}
+
+.first-container 
+{
+margin : 0 auto;
+text-align: center;
+padding: 30px;
+background-color:#EDF5E1 ;
+}
+.bold
+{
+  font-weight: bold;
+}
+.first-container h1+ul>li 
+{
+  border: 1px solid gray;
+  width: 140px;
+  margin:0 auto;
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: 3px;
+  background-color: #B1A296;
+  box-sizing: border-box;
+}
+
+.first-container h1+ul>li>a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.first-container h1 
+{ 
+  font-size:32px;
+  font-weight: 600;
+}
+.personal-detailes>ul>li:first-child
+{
+margin-top: 10px;
+}
+
+.personal-detailes h2 
+{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.education-detailes h2 
+{
+  font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.education-detailes h2+ul>li:first-child 
+{
+  margin-top: 10px;
+}
+
+.experience-details h2 
+{
+font-size: 24px;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.experience-details p {
+  margin-top: 10px;
+}
+
+.hobby-detailes h2 
+{
+font-size: 24px;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.hobby-detailes h2 + ul > li:first-child {
+  margin-top: 10px;
+}
+
+.hobby-detailes  ul > li {
+  list-style-type: disc;
+}
