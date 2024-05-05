@@ -80,6 +80,12 @@ margin-right:1px;
 
 .green-shop {
   width: 557px;
+  margin:0 auto;
+  margin-top : 68px;
+  margin-right:98px;
+  margin-left:40px;
+
+
 }
 
 .planet 
@@ -110,13 +116,38 @@ line-height:70px;
   font-size:14px;
   line-height:24px;
   color: #727272;
+  padding:10px;
 }
 
 .main-btn
 {
   background-color:#46A358;
+  color: #FFFFFF;
   border-radius:6px;
   cursor: pointer;
   border: none;
   width:140px;
+  padding-top:11px;
+  padding-bottom:9px;
+  font-weight: 700;
+  font-size:16px;
+  line-height:20px;
+}
+
+
+.main-flower , .content 
+{
+display: inline-block;
+}
+
+.content
+{
+width: 693px;
+vertical-align:top;
+}
+
+.main-content {
+  font-size:0px ;
+  margin:0 auto;
+  width:1200px;
 }
