@@ -1,1 +1,55 @@
 @import url(reset.css);
+
+.container {
+  width: 1200px;
+  margin:0 auto;
+}
+
+a{
+  text-decoration:none;
+}
+
+.asd{
+  float:left;
+  width:310px;
+}
+
+.main {
+  float:left;
+  width:840px;
+}
+
+.products-cards{
+  width:840px;
+}
+
+.products-items{
+  width:33.33%;
+  float:left;
+}
+
+.aside-class{
+  min-height:774px;
+}
+
+.product-filter{
+  float:right;
+}
+
+.header-container1{
+  width:840px;
+  float:right;
+}
+
+.header-item{
+  float:left;
+}
+
+.footer{
+
+}
+
+.page{
+  float:right;
+}
+
