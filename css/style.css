@@ -1,5 +1,20 @@
 @import url(reset.css);
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("WOFF2");
+  font-style:normal;
+  font-weight:700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("WOFF2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+
 .container {
   width: 1200px;
   margin:0 auto;
@@ -45,9 +60,9 @@ a{
   float:left;
 }
 
-.footer{
+/* .footer{
 
-}
+} */
 
 .page{
   float:right;
