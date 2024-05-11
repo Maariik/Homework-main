@@ -1,4 +1,3 @@
-
 html,
 body,
 div,
@@ -129,12 +128,12 @@ table {
   border-spacing: 0;
 }
 
-* {
+*{
   box-sizing: border-box;
 }
 
-.clearfix::after{
-  content:'';
-  clear:both;
-  display:block;
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
 }
