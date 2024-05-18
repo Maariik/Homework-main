@@ -1,20 +1,25 @@
 @import url(reset.css);
-/* GLOBAL */
 
-
-.container{
-  width:1200px;
-  margin:0 auto;
-  padding:0px 15px;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.active{
-  color:#46A358;
+header {
+  padding: 30px 0px 12px;
 }
 
-a{
-  color:inherit;
-  text-decoration:none;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.active {
+  color: #46A358;
 }
 
 /* FONTS */
@@ -51,79 +56,144 @@ a{
 }
 
 /* HEADER */
-.header-container{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  border-bottom:0.3px solid #46A35880;
-  padding-bottom:12px;
-}
-
-.header-list{
+.header-container {
   display: flex;
-  gap:45px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.3px solid #46A35880;
+  padding-bottom: 12px;
 }
 
-.header{
-  padding:30px 0px 12px;
-  margin-bottom: 12px;
+.header-list {
+  display: flex;
+  gap: 45px;
 }
 
-.header-button{
-  padding:8px 20px;
+.list-items {
+  position: relative;
+}
+
+.header-container .header-list .list-items:hover .active2 {
+  color: #46A358
+}
+
+.header-list .list-items .header-menu {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  top: 100%;
+  padding-top: 24px;
+}
+
+.menu-title {
+  background: #EDF6EE;
+}
+
+.list-items:hover:before {
+  content: '';
+  background: #46A358;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+
+.menu-title {
+  width: 100%;
+}
+
+.acd {
+  position: absolute;
+  left: 180px;
+  top: 24px;
+  padding-left: 4px;
+}
+
+.bottom-menu a {
+  display: block;
+  padding: 10px 40px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D3D3D;
+}
+
+.bottom-menu:hover {
+  background: #1A712A;
+}
+
+.bottom-menu {
+  background: #EDF6EE;
+}
+
+.menu-title a {
+  display: block;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D3D3D;
+}
+
+.header-menu {
+  display: none;
+}
+
+.list-items:hover .header-menu {
+  display: block;
+}
+
+.menu-title:hover {
+  background: #1A712A;
+}
+
+.menu-title:hover:last-child .active3 {
+  color: #FFF;
+}
+
+.acd {
+  display: none;
+}
+
+.menu-title:hover:last-child .acd {
+  display: block;
+}
+
+.header-button {
+  padding: 8px 20px;
   background: rgba(70, 163, 88, 1);
-  border-radius:4px;
-  border:none;
+  border-radius: 4px;
+  border: none;
   font-size: 16px;
-  line-height:20.11px;
+  line-height: 20.11px;
   font-family: "Roboto";
   font-weight: 500;
   color: #FFF;
 }
 
-.list-items{
+.list-items {
   font-family: "Roboto";
-  font-weight:500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color:#3D3D3D;
-  position: relative;
+  color: #3D3D3D;
 }
 
-.list-items a:hover  {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 20px;
-  color:#46A358;
+.main-container {
+  display: flex;
 }
 
-.list-items a:hover:before{
-  content:'';
-  position:absolute;  
-  background:#46A358;
-  height:3px;
-  bottom:-21px;
-  left:0;
-  right:0;
-}
-
-.list-items{
-position: relative;
-}
-
-.main-container{
-  display:flex;
-}
-
-.part1{
-  width:545px;
+.part1 {
+  width: 545px;
   margin-left: 40px;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
 }
 
-.second-titile{
+.second-titile {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 70px;
@@ -131,58 +201,44 @@ position: relative;
   margin-bottom: 5px;
 }
 
-.element{
-  color:#46A358;
+.element {
+  color: #46A358;
 }
 
-.main-title{
+.main-title {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color:#3D3D3D;
+  color: #3D3D3D;
   margin-bottom: 7px;
 }
 
-.main-text{
-font-family: "Roboto";
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-color:#727272;
-margin-bottom: 44px;
+.main-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #727272;
+  margin-bottom: 44px;
 }
 
-.main-btn{
-  padding:11px 38px;
+.main-btn {
+  padding: 11px 38px;
   background: #46A358;
-  border-radius:4px;
+  border-radius: 4px;
 }
 
-.main-btn{
-  font-family:"Roboto";
-  font-weight:700;
+.main-btn {
+  font-family: "Roboto";
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color:#FFFF;
+  color: #FFFF;
   align-self: flex-start
 }
 
-.menu-title{
-  padding:8px 15px;
-  background:#EDF6EE;
+.menu-title {
+  padding: 10px 40px;
+  background: #EDF6EE;
 }
-
-.header-menu{
-  position:absolute;
-  padding:22px;
-  left:0;
-  opacity:0;
-}
-
-.header-list .list-items:hover .header-menu{
-  opacity:1;
-}
-
-
-
