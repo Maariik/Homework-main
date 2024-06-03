@@ -20,9 +20,13 @@
       <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a class="header-phone" href="tel:1234567890">+38 096 111 11 11</a>
     </div>
+    <div class="header-burger">
+      <span></span>
+    </div>
   </header>
 
   <main class="main">
+
     <section class="hero">
       <div class="container main-container">
         <div class="hero-container">
@@ -31,10 +35,13 @@
         </div>
       </div>
     </section>
+
     <section class="description-cards">
       <div class="container description-container">
         <article class="description-card">
-          <img class="desc-img" src="imgs/picture1.svg" width="270">
+          <div class="desc-card-img">
+            <img class="desc-img" src="imgs/picture1.svg" width="270">
+          </div>
           <h3 class="description-title">
             Attention to detail
           </h3>
@@ -43,7 +50,7 @@
           </p>
         </article>
         <article class="description-card">
-          <img class="desc-img" src="imgs/picture2.svg" width="270">
+          <div class="desc-card-img"><img class="desc-img" src="imgs/picture2.svg" width="270"></div>
           <h3 class="description-title">
             Punctuality
           </h3>
@@ -52,7 +59,7 @@
           </p>
         </article>
         <article class="description-card">
-          <img class="desc-img" src="imgs/picture3.svg" width="270">
+          <div class="desc-card-img"><img class="desc-img" src="imgs/picture3.svg" width="270"></div>
           <h3 class="description-title">
             Planning
           </h3>
@@ -61,7 +68,7 @@
           </p>
         </article>
         <article class="description-card">
-          <img class="desc-img" src="imgs/picture4.svg" width="270">
+          <div class="desc-card-img"><img class="desc-img" src="imgs/picture4.svg" width="270"></div>
           <h3 class="description-title">
             Modern technologies
           </h3>
@@ -71,6 +78,7 @@
         </article>
       </div>
     </section>
+
     <section class="doing">
       <div class="container">
         <h2 class="doing-title">What are we doing</h2>
@@ -259,53 +267,63 @@
         <h2 class="customer-title">Regular customers</h2>
         <div class="customer-container">
           <article class="customer">
-
-            <a class="customer-link" href="#">
-              <svg width="41" height="47" viewBox="0 0 40 52" class="customer-img">
-                <use class="acdf" href="sprite.svg#client-1"></use>
-              </svg>
-            </a>
-
+            <div class="customer-block">
+              <a class="customer-link" href="#">
+                <svg width="41" height="47" viewBox="0 0 40 52" class="customer-img">
+                  <use class="acdf" href="sprite.svg#client-1"></use>
+                </svg>
+              </a>
+            </div>
           </article>
 
           <article class="customer">
-            <a class="customer-link" href="#">
-              <svg class="customer-img" width="40" height="52" viewBox="0 0 40 52">
-                <use href="sprite.svg#client-2"></use>
-              </svg>
-            </a>
+            <div class="customer-block">
+              <a class="customer-link" href="#">
+                <svg class="customer-img" width="40" height="52" viewBox="0 0 40 52">
+                  <use href="sprite.svg#client-2"></use>
+                </svg>
+              </a>
+            </div>
           </article>
 
           <article class="customer">
-            <a class="customer-link" href="#">
-              <svg class="customer-img" width="45" height="42" viewBox="0 0 45 42">
-                <use href="sprite.svg#client-3"></use>
-              </svg>
-            </a>
+            <div class="customer-block">
+              <a class="customer-link" href="#">
+                <svg class="customer-img" width="45" height="42" viewBox="0 0 45 42">
+                  <use href="sprite.svg#client-3"></use>
+                </svg>
+              </a>
+            </div>
           </article>
 
           <article class="customer">
-            <a class="customer-link" href="#">
-              <svg class="customer-img" width="85" height="42" viewBox="0 0 85 42">
-                <use href="sprite.svg#client-4"></use>
-              </svg>
-            </a>
+            <div class="customer-block">
+              <a class="customer-link" href="#">
+                <svg class="customer-img" width="85" height="42" viewBox="0 0 85 42">
+                  <use href="sprite.svg#client-4"></use>
+                </svg>
+              </a>
+            </div>
           </article>
 
           <article class="customer">
-            <a class="customer-link" href="#">
-              <svg class="customer-img" width="63" height="47" viewBox="0 0 63 47">
-                <use href="sprite.svg#client-5"></use>
-              </svg>
-            </a>
+            <div class="customer-block">
+              <a class="customer-link" href="#">
+                <svg class="customer-img" width="63" height="47" viewBox="0 0 63 47">
+                  <use href="sprite.svg#client-5"></use>
+                </svg>
+              </a>
+            </div>
           </article>
 
           <article class="customer">
-            <a class="customer-link" href="#">
-              <svg class="customer-img" width="94" height="45" viewBox="0 0 94 45">
-                <use href="sprite.svg#client-6"></use>
-              </svg>
-            </a>
+            <div class="customer-block">
+              <a class="customer-link" href="#">
+                <svg class="customer-img" width="94" height="45" viewBox="0 0 94 45">
+                  <use href="sprite.svg#client-6"></use>
+                </svg>
+              </a>
+            </div>
           </article>
         </div>
       </div>
